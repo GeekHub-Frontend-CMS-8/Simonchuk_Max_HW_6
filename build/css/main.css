@@ -182,3 +182,93 @@
     background: url("../img/about-me-img.png") no-repeat center/cover;
     width: 570px;
     height: 443px; }
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap; }
+
+.wrapper {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+.section__services {
+  background-color: #f6f6f6;
+  padding-top: 94px;
+  padding-bottom: 113px; }
+  .section__services_title-top {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center; }
+  .section__services_border {
+    max-width: 60px;
+    height: 4px;
+    background-color: #212121;
+    opacity: 0.6;
+    margin: 0 auto 19px; }
+  .section__services_title {
+    opacity: 0.8;
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 61px; }
+  .section__services-item {
+    max-width: 375px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 82px; }
+  .section__services_img-1 {
+    width: 77px;
+    height: 77px;
+    opacity: 0.8;
+    margin: 0 auto; }
+  .section__services_subtitle {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center; }
+  .section__services_img-research {
+    background: url("../img/reseach.png") no-repeat center/cover; }
+  .section__services_img-2 {
+    width: 76px;
+    height: 62px;
+    opacity: 0.8;
+    margin: 0 auto; }
+  .section__services_img-wireframes {
+    background: url("../img/Wireframes.png") no-repeat center/cover; }
+  .section__services_img-3 {
+    width: 67px;
+    height: 75px;
+    opacity: 0.8;
+    margin: 0 auto; }
+  .section__services_img-look-feel {
+    background: url("../img/looks and feel.png") no-repeat center/cover; }
+  .section__services_img-4 {
+    width: 90px;
+    height: 75px;
+    opacity: 0.8;
+    margin: 0 auto; }
+  .section__services_img-delivery {
+    background: url("../img/delivery.png") no-repeat center/cover; }
+  .section__services_img-5 {
+    width: 57px;
+    height: 81px;
+    opacity: 0.8;
+    margin: 0 auto; }
+  .section__services_img-testing {
+    background: url("../img/user-testing.png") no-repeat center/cover; }
+  .section__services_img-6 {
+    width: 76px;
+    height: 76px;
+    opacity: 0.8;
+    margin: 0 auto; }
+  .section__services_img-support {
+    background: url("../img/support.png") no-repeat center/cover; }
