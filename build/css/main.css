@@ -338,3 +338,78 @@
     display: inline-block; }
     .section__portfolio_button:hover {
       background-color: #ffffff; }
+
+.section__testimonials {
+  padding-top: 102px;
+  padding-bottom: 122px; }
+  .section__testimonials_title-top {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center; }
+  .section__testimonials_border {
+    max-width: 60px;
+    height: 4px;
+    background-color: #212121;
+    opacity: 0.6;
+    margin: 0 auto 30px; }
+  .section__testimonials_title {
+    opacity: 0.8;
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 57px; }
+  .section__testimonials_block {
+    border: 1px solid #212121;
+    max-width: 955px;
+    height: 349px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; }
+  .section__testimonials_block-img {
+    background: url("../img/girl.png") no-repeat center/cover;
+    width: 159px;
+    height: 159px; }
+  .section__testimonials_block-description {
+    margin-left: 31px; }
+  .section__testimonials_block-title {
+    max-width: 172px;
+    opacity: 0.9;
+    display: inline-block;
+    color: #212121;
+    font-family: "Asap", sans-serif;
+    font-size: 30px;
+    font-weight: 500; }
+  .section__testimonials_block-title-bottom {
+    width: 140px;
+    height: 11px;
+    opacity: 0.9;
+    color: #212121;
+    font-family: "Asap", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 20px; }
+  .section__testimonials_block-text {
+    width: 569px;
+    height: 93px;
+    opacity: 0.6;
+    color: #212121;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    font-weight: 400; }
+  .section__testimonials_cube {
+    display: flex; }
+  .section__testimonials_cube-1, .section__testimonials_cube-3 {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #212121;
+    margin-right: 4px; }
+  .section__testimonials_cube-2 {
+    width: 15px;
+    height: 15px;
+    background-color: #212121;
+    margin-right: 4px; }
