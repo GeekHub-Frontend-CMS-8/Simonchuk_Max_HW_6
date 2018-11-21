@@ -413,3 +413,55 @@
     height: 15px;
     background-color: #212121;
     margin-right: 4px; }
+
+.section__elements {
+  background: url("../img/bg-elements.png");
+  padding-top: 62px;
+  padding-bottom: 65px; }
+  .section__elements_list {
+    max-width: 260px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center; }
+  .section__elements_item {
+    max-width: 260px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center; }
+  .section__elements_img-1 {
+    width: 98px;
+    height: 98px; }
+  .section__elements_img-2 {
+    width: 77px;
+    height: 77px; }
+  .section__elements_img-3 {
+    width: 64px;
+    height: 74px; }
+  .section__elements_img-4 {
+    width: 70px;
+    height: 82px; }
+  .section__elements_subtitle {
+    color: #212121;
+    font-family: "Asap", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 260px;
+    margin-bottom: 10px; }
+  .section__elements_description {
+    font-family: "Asap", sans-serif;
+    font-size: 30px;
+    font-weight: 400; }
+  .section__elements_img-work {
+    background: url("../img/study.png");
+    margin: 0 auto 31px; }
+  .section__elements_img-client {
+    background: url("../img/client.png");
+    margin: 0 auto 31px; }
+  .section__elements_img-project {
+    background: url("../img/project.png");
+    margin: 0 auto 31px; }
+  .section__elements_img-coffe {
+    background: url("../img/coffe.png");
+    margin: 0 auto 31px; }
