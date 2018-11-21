@@ -58,7 +58,8 @@
 
 .section__hero {
   text-decoration: none;
-  position: relative; }
+  height: 670px;
+  background-image: url("../img/background-img.png"); }
   .section__hero-flex {
     display: flex;
     justify-content: space-between;
@@ -119,6 +120,7 @@
     font-family: "Asap", sans-serif;
     font-size: 22px;
     font-weight: 400;
+    letter-spacing: 7.91px;
     margin-bottom: 7px; }
   .section__about-me_border {
     width: 60px;
@@ -168,7 +170,9 @@
     font-family: "Asap", sans-serif;
     font-size: 22px;
     font-weight: 400;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: 7.91px;
+    margin-bottom: 7px; }
   .section__services_border {
     max-width: 60px;
     height: 4px;
@@ -247,7 +251,9 @@
     font-family: "Asap", sans-serif;
     font-size: 22px;
     font-weight: 400;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: 7.91px;
+    margin-bottom: 7px; }
   .section__my-skills_border {
     max-width: 60px;
     height: 4px;
@@ -282,7 +288,9 @@
     font-family: "Asap", sans-serif;
     font-size: 22px;
     font-weight: 400;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: 7.91px;
+    margin-bottom: 7px; }
   .section__portfolio_border {
     max-width: 60px;
     height: 4px;
@@ -347,7 +355,9 @@
     font-family: "Asap", sans-serif;
     font-size: 22px;
     font-weight: 400;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: 7.91px;
+    margin-bottom: 7px; }
   .section__testimonials_border {
     max-width: 60px;
     height: 4px;
@@ -467,10 +477,13 @@
     background: url("../img/coffe.png");
     margin: 0 auto 31px; }
 
-.section__contact {
+.background-contact-footer {
   background: url("../img/contact_bg.png");
-  background-size: cover;
-  padding-top: 121px; }
+  background-size: cover; }
+
+.section__contact {
+  padding-top: 121px;
+  margin-bottom: 58px; }
   .section__contact_title-top {
     color: #d4d4d4;
     font-family: "Nirmala UI" ,sans-serif;
@@ -542,5 +555,98 @@
   .section__contact_up-button {
     background: url("../img/up-button.png");
     width: 65px;
-    height: 41px;
-    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1); }
+    height: 51px;
+    margin-bottom: 58px; }
+
+.section__hero {
+  background-image: url("../img/background-img.png");
+  background-size: cover; }
+  .section__hero-flex {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch; }
+  .section__hero-title {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+    margin-top: 118px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: inline-block; }
+  .section__hero_text {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 28px; }
+  .section__hero-img {
+    background: url("../img/hero_img.png") no-repeat center/cover;
+    width: 530px;
+    height: 600px; }
+
+.button-km {
+  text-decoration: none;
+  padding: 19px 30px;
+  margin-right: 20px;
+  color: #4d4d4d;
+  font-family: "Asap", sans-serif;
+  font-size: 16px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block; }
+  .button-km:hover {
+    background-color: #ffffff; }
+
+.button-hm {
+  text-decoration: none;
+  padding: 19px 50px;
+  color: #4d4d4d;
+  font-family: "Asap", sans-serif;
+  font-size: 16px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block; }
+  .button-hm:hover {
+    background-color: #ffffff; }
+
+.background-contact-footer {
+  background: url("../img/contact_bg.png");
+  background-size: cover; }
+
+.footer {
+  text-decoration: none;
+  padding-bottom: 34px; }
+  .footer_container {
+    display: flex; }
+  .footer_border {
+    max-width: 1140px;
+    border: 1px solid #d4d4d4;
+    margin-bottom: 26px; }
+  .footer_list {
+    display: flex; }
+  .footer_link-img {
+    width: 27px;
+    height: 27px;
+    display: block;
+    margin-right: 9px; }
+  .footer_facebook-link {
+    background: url("../img/facebook.png"); }
+  .footer_twitter-link {
+    background: url("../img/twitter.png"); }
+  .footer_network-in-link {
+    background: url("../img/network-in.png"); }
+  .footer_google-link {
+    background: url("../img/google.png"); }
+  .footer_behance-link {
+    background: url("../img/behance.png"); }
+  .footer_dribble-link {
+    background: url("../img/dribble.png"); }
+  .footer_text {
+    box-sizing: border-box;
+    align-self: center;
+    margin: 0 auto;
+    color: #d4d4d4;
+    font-family: Montserrat , sans-serif;
+    font-size: 16px;
+    font-weight: 400; }
