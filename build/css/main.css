@@ -423,7 +423,8 @@
     width: 100%;
     display: inline-block;
     box-sizing: border-box;
-    text-align: center; }
+    text-align: center;
+    margin-right: 22px; }
   .section__elements_item {
     max-width: 260px;
     width: 100%;
@@ -465,3 +466,55 @@
   .section__elements_img-coffe {
     background: url("../img/coffe.png");
     margin: 0 auto 31px; }
+
+.section__contact {
+  background: url("../img/contact_bg.png");
+  padding-top: 121px; }
+  .section__contact_title-top {
+    color: #d4d4d4;
+    font-family: "Nirmala UI";
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 7.91px;
+    margin-bottom: 7px; }
+  .section__contact_border {
+    max-width: 60px;
+    height: 4px;
+    background-color: #d4d4d4;
+    opacity: 0.6;
+    margin: 0 auto 19px; }
+  .section__contact_title {
+    opacity: 0.9;
+    color: #d4d4d4;
+    font-family: "Asap", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 5.52px;
+    margin-bottom: 70px; }
+  .section__contact_form {
+    margin: auto;
+    padding: 15px;
+    max-width: 850px; }
+    .section__contact_form .input-text {
+      margin: 0 auto 29px 32px;
+      display: inline-block;
+      width: 359px;
+      height: 55px;
+      padding-left: 10px;
+      color: #212121;
+      font-family: "Asap", sans-serif;
+      font-size: 16px;
+      font-weight: 400; }
+    .section__contact_form .textarea {
+      margin: 0 auto;
+      padding: 15px;
+      display: block;
+      width: 850px;
+      height: 200px;
+      max-width: 750px;
+      color: #212121;
+      font-family: "Asap", sans-serif;
+      font-size: 16px;
+      font-weight: 400; }
