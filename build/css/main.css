@@ -8,16 +8,6 @@
   margin: 0 auto;
   box-sizing: border-box; }
 
-.nav-list {
-  display: flex;
-  flex-wrap: wrap; }
-
-.wrapper {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-  box-sizing: border-box; }
-
 .background {
   background-image: url("../img/background-img.png");
   background-size: cover; }
@@ -54,10 +44,6 @@
   justify-content: space-between; }
 
 .nav-item {
-  color: #4d4d4d;
-  font-family: "Asap", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
   margin: 0 15px; }
 
 .nav-link {
@@ -122,16 +108,6 @@
   .button-hm:hover {
     background-color: #ffffff; }
 
-.nav-list {
-  display: flex;
-  flex-wrap: wrap; }
-
-.wrapper {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-  box-sizing: border-box; }
-
 .section__about-me {
   padding-top: 109px;
   padding-bottom: 129px; }
@@ -183,16 +159,6 @@
     width: 570px;
     height: 443px; }
 
-.nav-list {
-  display: flex;
-  flex-wrap: wrap; }
-
-.wrapper {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-  box-sizing: border-box; }
-
 .section__services {
   background-color: #f6f6f6;
   padding-top: 94px;
@@ -228,7 +194,7 @@
     width: 77px;
     height: 77px;
     opacity: 0.8;
-    margin: 0 auto; }
+    margin: 0 auto 13px; }
   .section__services_subtitle {
     color: #4d4d4d;
     font-family: "Asap", sans-serif;
@@ -241,34 +207,134 @@
     width: 76px;
     height: 62px;
     opacity: 0.8;
-    margin: 0 auto; }
+    margin: 0 auto 13px; }
   .section__services_img-wireframes {
     background: url("../img/Wireframes.png") no-repeat center/cover; }
   .section__services_img-3 {
     width: 67px;
     height: 75px;
     opacity: 0.8;
-    margin: 0 auto; }
+    margin: 0 auto 13px; }
   .section__services_img-look-feel {
     background: url("../img/looks and feel.png") no-repeat center/cover; }
   .section__services_img-4 {
     width: 90px;
     height: 75px;
     opacity: 0.8;
-    margin: 0 auto; }
+    margin: 0 auto 13px; }
   .section__services_img-delivery {
     background: url("../img/delivery.png") no-repeat center/cover; }
   .section__services_img-5 {
     width: 57px;
     height: 81px;
     opacity: 0.8;
-    margin: 0 auto; }
+    margin: 0 auto 13px; }
   .section__services_img-testing {
     background: url("../img/user-testing.png") no-repeat center/cover; }
   .section__services_img-6 {
     width: 76px;
     height: 76px;
     opacity: 0.8;
-    margin: 0 auto; }
+    margin: 0 auto 13px; }
   .section__services_img-support {
     background: url("../img/support.png") no-repeat center/cover; }
+
+.section__my-skills {
+  padding-top: 92px;
+  padding-bottom: 125px; }
+  .section__my-skills_title-top {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center; }
+  .section__my-skills_border {
+    max-width: 60px;
+    height: 4px;
+    background-color: #212121;
+    opacity: 0.6;
+    margin: 0 auto 23px; }
+  .section__my-skills_title {
+    opacity: 0.8;
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 60px; }
+  .section__my-skills_img-function {
+    background: url("../img/function.png");
+    max-width: 950px;
+    height: 362px;
+    margin: 0 auto; }
+  .section__my-skills_img-function-2 {
+    background: url("../img/function-2.png");
+    max-width: 680px;
+    height: 29px;
+    margin: 0 auto; }
+
+.section__portfolio {
+  background-color: #f6f6f6;
+  padding-top: 101px;
+  padding-bottom: 123px; }
+  .section__portfolio_title-top {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center; }
+  .section__portfolio_border {
+    max-width: 60px;
+    height: 4px;
+    background-color: #212121;
+    opacity: 0.6;
+    margin: 0 auto 19px; }
+  .section__portfolio_title {
+    opacity: 0.8;
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px; }
+  .section__portfolio_list {
+    max-width: 355px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 22px;
+    margin-bottom: 22px; }
+  .section__portfolio_item {
+    max-width: 355px;
+    width: 100%;
+    box-sizing: border-box; }
+  .section__portfolio_img {
+    width: 355px;
+    height: 318px; }
+  .section__portfolio_img-1 {
+    background: url("../img/portfolio-1.png") no-repeat center/cover; }
+  .section__portfolio_img-2 {
+    background: url("../img/portfolio-2.png") no-repeat center/cover; }
+  .section__portfolio_img-3 {
+    background: url("../img/portfolio-3.png") no-repeat center/cover; }
+  .section__portfolio_img-4 {
+    background: url("../img/portfolio-4.png") no-repeat center/cover; }
+  .section__portfolio_img-5 {
+    background: url("../img/porfolio-5.png") no-repeat center/cover; }
+  .section__portfolio_img-6 {
+    background: url("../img/portfolio-6.png") no-repeat center/cover; }
+  .section__portfolio_link {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px; }
+  .section__portfolio_button {
+    text-decoration: none;
+    padding: 20px 47px;
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: inline-block; }
+    .section__portfolio_button:hover {
+      background-color: #ffffff; }
