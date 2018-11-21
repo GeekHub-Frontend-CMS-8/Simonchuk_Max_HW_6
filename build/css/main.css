@@ -469,10 +469,11 @@
 
 .section__contact {
   background: url("../img/contact_bg.png");
+  background-size: cover;
   padding-top: 121px; }
   .section__contact_title-top {
     color: #d4d4d4;
-    font-family: "Nirmala UI";
+    font-family: "Nirmala UI" ,sans-serif;
     font-size: 22px;
     font-weight: 400;
     text-align: center;
@@ -508,7 +509,7 @@
       font-size: 16px;
       font-weight: 400; }
     .section__contact_form .textarea {
-      margin: 0 auto;
+      margin: 0 auto 30px;
       padding: 15px;
       display: block;
       width: 850px;
@@ -518,3 +519,28 @@
       font-family: "Asap", sans-serif;
       font-size: 16px;
       font-weight: 400; }
+  .section__contact_link {
+    display: flex;
+    justify-content: center; }
+  .section__contact_button {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.96px;
+    padding: 19px 45px 19px 31px;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; }
+  .section__contact_up-link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; }
+  .section__contact_up-button {
+    background: url("../img/up-button.png");
+    width: 65px;
+    height: 41px;
+    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1); }
