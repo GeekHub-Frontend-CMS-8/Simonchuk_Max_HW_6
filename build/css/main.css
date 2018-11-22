@@ -318,7 +318,9 @@
     box-sizing: border-box; }
   .section__portfolio_img {
     width: 355px;
-    height: 318px; }
+    height: 318px;
+    box-shadow: 0 0 37px 12px rgba(0, 0, 0, 0.15);
+    background-color: #212121; }
   .section__portfolio_img-1 {
     background: url("../img/portfolio-1.png") no-repeat center/cover; }
   .section__portfolio_img-2 {
@@ -331,6 +333,12 @@
     background: url("../img/porfolio-5.png") no-repeat center/cover; }
   .section__portfolio_img-6 {
     background: url("../img/portfolio-6.png") no-repeat center/cover; }
+  .section__portfolio_awesome {
+    position: absolute;
+    padding: 130px 150px; }
+    .section__portfolio_awesome:hover {
+      background-color: #4d4d4d;
+      opacity: 0.1; }
   .section__portfolio_link {
     display: flex;
     justify-content: center;
@@ -385,7 +393,8 @@
     width: 159px;
     height: 159px; }
   .section__testimonials_block-description {
-    margin-left: 31px; }
+    margin-left: 31px;
+    margin-top: 31px; }
   .section__testimonials_block-title {
     max-width: 172px;
     opacity: 0.9;
@@ -412,7 +421,8 @@
     font-size: 16px;
     font-weight: 400; }
   .section__testimonials_cube {
-    display: flex; }
+    display: flex;
+    justify-content: center; }
   .section__testimonials_cube-1, .section__testimonials_cube-3 {
     width: 13px;
     height: 13px;
@@ -645,7 +655,7 @@
   .footer_text {
     box-sizing: border-box;
     align-self: center;
-    margin: 0 auto;
+    margin-left: 260px;
     color: #d4d4d4;
     font-family: Montserrat , sans-serif;
     font-size: 16px;
